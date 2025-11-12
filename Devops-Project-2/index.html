@@ -1,0 +1,13 @@
+sudo bash -c 'cat > /var/www/html/index.html <<EOF
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>My First EC2 Website</title>
+</head>
+<body>
+  <h1>Hello from EC2 + Apache!</h1>
+  <p>Deployed on $(hostname) at $(date)</p>
+</body>
+</html>
+EOF'
