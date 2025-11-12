@@ -69,17 +69,6 @@ http://PUBLIC_IP/
 ```
 You should see the “Hello from EC2 + Apache!” page.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0c9977f0-aedf-45e0-b565-ca53ae5f2515" alt="AWS S3 Screenshot" width="600">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a5990c2c-3e82-47cf-85a3-0c69fd538784" alt="AWS S3 Screenshot" width="600">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/13447689-25e2-48e1-a35f-fc04de049612" alt="AWS S3 Screenshot" width="600">
-</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9919d467-85d3-4975-986a-2c6ae7e99a16" alt="AWS S3 Screenshot" width="600">
