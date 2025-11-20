@@ -59,10 +59,21 @@ docker pull AishwaryaK001/my-flask-app:latest
 docker run -p 5000:5000 AishwaryaK001/my-flask-app:latest
 ```
 
-<img width="841" height="317" alt="image" src="https://github.com/user-attachments/assets/3af6e086-114c-496b-85b8-6b4ff4cebe69" />
-<img width="975" height="182" alt="image" src="https://github.com/user-attachments/assets/f5f190a6-699b-40a8-8cfc-d199b93b01b9" />
-<img width="278" height="94" alt="image" src="https://github.com/user-attachments/assets/fe1305d9-2265-43cd-8f98-0bd0869c1a64" />
-<img width="731" height="211" alt="image" src="https://github.com/user-attachments/assets/8ead2e4e-353e-4506-9de3-f251e673acc4" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3af6e086-114c-496b-85b8-6b4ff4cebe69" alt="AWS S3 Screenshot" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f5f190a6-699b-40a8-8cfc-d199b93b01b9" alt="AWS S3 Screenshot" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fe1305d9-2265-43cd-8f98-0bd0869c1a64" alt="AWS S3 Screenshot" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ead2e4e-353e-4506-9de3-f251e673acc4" alt="AWS S3 Screenshot" width="600">
+</p>
 
 
 
