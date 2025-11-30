@@ -1,9 +1,8 @@
-🌐 # AWS S3 Static Website Hosting Using Terraform #
+🌐 #AWS S3 Static Website Hosting Using Terraform #
 
 A beginner-friendly Infrastructure as Code (IaC) project that deploys a fully functional static website hosted on Amazon S3, built and managed using Terraform. The website files (HTML/CSS) are stored in S3, and S3 website hosting is enabled for public access.
 
-**Flow:
-
+**Flow:**
 - Launch EC2 with IAM Role
 - Install Terraform on EC2
 - Run Terraform code to create S3 Website
@@ -11,17 +10,14 @@ A beginner-friendly Infrastructure as Code (IaC) project that deploys a fully fu
 - Access the public S3 Website URL
 
 Devops-Project-6/
-│
-├── README.md                # Project documentation
-│
-├── terraform/               # All Terraform IaC files
-│   ├── provider.tf
-│   ├── main.tf
-│   ├── variables.tf
-│   └── output.tf
-│
-├── website/                 # Static website files
-    ├── index.html
+  - README.md                # Project documentation
+  - terraform/               # All Terraform IaC files
+        provider.tf
+        main.tf
+        variables.tf
+        output.tf
+  - website/                 # Static website files
+        index.html
 
 
 
@@ -29,9 +25,13 @@ Devops-Project-6/
 
 Choose:
 Amazon Linux 2 AMI
+
 t2.micro (Free tier)
+
 VPC/Subnet: Default
+
 Allow SSH (Port 22)
+
 Key pair: Create and download
 
 🟦 **Step 2: Create an IAM Role & Attach to EC2**
@@ -39,10 +39,15 @@ Key pair: Create and download
 **IAM Role ➝ EC2 Role**
 
 Go to IAM → Roles → Create Role
+
 Choose AWS Service → EC2
+
 Attach permission:AmazonS3FullAccess
+
 Give a role name:EC2-S3-Terraform-Role
+
 After EC2 launches → Actions → Security → Modify IAM Role
+
 Attach the role.
 
 🟦 **Step 3: SSH into EC2**
